@@ -17,15 +17,15 @@ function Hero() {
       <div className="flex flex-col justify-between">
         {/* Top Text Section */}
         <div className="mt-7 px-4">
-          <h1 className="font-bold text-4xl leading-tight tracking-wide">Designer</h1>
-          <h1 className="font-bold text-4xl leading-tight tracking-wide">Skill Collector</h1>
-          <h1 className="font-bold text-4xl leading-tight tracking-wide">Harmony Hunter</h1>
+          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Designer</h1>
+          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Skill Collector</h1>
+          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Harmony Hunter</h1>
 
           <div className="flex items-center mt-5 space-x-2">
-            <button className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-300 text-black">
-              <FaPlay className="w-2.5 h-2.5 text-black" fill="currentColor" />
+            <button className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-gray-300 text-black">
+              <FaPlay className="w-[6px] h-[6px] text-black" fill="currentColor" />
             </button>
-            <p className="uppercase text-xs">Play Project Reels</p>
+            <p className="uppercase text-[12px]">Play Project Reels</p>
           </div>
         </div>
 
@@ -72,20 +72,20 @@ function Hero() {
       </div>
 
       {/* Bottom Section */}
-        <div className="flex justify-between px-4 w-full">
+        <div className="flex justify-between px-4 w-full h-[48.92px]">
           <div className="flex space-x-2">
-            <div className="flex items-center space-x-2 px-2 py-3">
-              <p className="text-xs">AR</p>
-              <GoArrowUpRight className="w-2 h-2" />
+            <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+              <p className="text-[12px]">AR</p>
+              <GoArrowUpRight className="w-[12px] h-[12px]" />
             </div>
-            <div className="flex items-center space-x-2 px-2 py-3">
-              <p className="text-xs">LI</p>
-              <GoArrowUpRight className="w-2 h-2" />
+            <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+              <p className="text-[12px]">LI</p>
+              <GoArrowUpRight className="w-[12px] h-[12px]" />
             </div>
           </div>
-          <div className="flex items-center space-x-2 px-2 py-3">
-            <FaRegCopyright className="w-2 h-2" />
-            <p className="text-xs">2025</p>
+          <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+            <FaRegCopyright className="w-[12px] h-[12px]" />
+            <p className="text-[12px]">2025</p>
           </div>
         </div>
     </div>
