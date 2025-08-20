@@ -1,17 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
-import Header from "../layout/Header";
-import { useState } from "react";
-import Modal from "../layout/Modal";
+import Header from "../components/layout/Header";
 import { Autoplay } from "swiper/modules";
 import { FaPlay, FaRegCopyright } from "react-icons/fa";
-import { HiMenuAlt4 } from "react-icons/hi";
 import { GoArrowUpRight } from "react-icons/go";
-import asianlink from '../../assets/images/asianlink.png';
-import playful from "../../assets/images/playful.png";
-import ModalButton from "../layout/ModalButton";
+import asianlink from '../assets/images/asianlink.png';
+import playful from "../assets/images/playful.png";
+import ModalButton from "../components/common/ModalButton";
 
-function Hero() {
+function Home() {
 
   return (
     <div className="relative min-h-full">
@@ -88,4 +85,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;

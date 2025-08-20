@@ -1,8 +1,8 @@
 import { FaArrowDown } from "react-icons/fa";
-import Header from "../layout/Header";
+import Header from "../components/layout/Header";
 import { SiFiles } from "react-icons/si";
-import ModalButton from "../layout/ModalButton";
-import Footer from "../layout/Footer";
+import ModalButton from "../components/common/ModalButton";
+import Footer from "../components/layout/Footer";
 
 function Projects() {
     return (
