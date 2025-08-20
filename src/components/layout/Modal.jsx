@@ -43,7 +43,7 @@ function Modal({ isOpen }) {
                 </div>
 
                 <div className="flex items-center justify-center h-[67.53px]">
-                    <a href="" className="flex items-center justify-center space-x-[.5em] bg-black text-white px-[18.2px] py-[8.4px] rounded-full w-[160px]">
+                    <a href="http://calendly.com/johnlloydbutay123/30min" className="flex items-center justify-center space-x-[.5em] bg-black text-white px-[18.2px] py-[8.4px] rounded-full w-[160px]">
                         <p className="text-[12px] uppercase">Work with me</p>
                         <GoArrowUpRight className="w-[12px] h-[12px]" />
                     </a>

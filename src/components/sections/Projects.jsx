@@ -136,10 +136,10 @@ function Projects() {
                 </div>
                 <div className="flex flex-col space-y-[.8em] text-white mb-[14px] px-[14px]">
                     <p className="text-white text-[49px] leading-none font-bold">Ready to bring your ideas to life?</p>
-                    <div className="flex justify-between items-center py-[14px] pr-[14px] pl-[28px] bg-[#dfb44b] rounded-full text-black uppercase font-bold ">
+                    <a href="http://calendly.com/johnlloydbutay123/30min" className="flex justify-between items-center py-[14px] pr-[14px] pl-[28px] bg-[#dfb44b] rounded-full text-black uppercase font-bold ">
                         Let's create
                         <FaArrowRight />
-                    </div>
+                    </a>
                 </div>
                 <div className="py-[41px] pr-[14px] pl-[23.800px] space-y-[1em]">
                     <div className="flex justify-center">
