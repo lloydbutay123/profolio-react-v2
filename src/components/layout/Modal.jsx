@@ -15,7 +15,7 @@ function Modal({ isOpen }) {
                     <FaSpotify className="w-[20px] h-[20px] text-white" />
                 </div>
 
-                <div className="flex flex-col items-center my-[28px]">
+                <a href={`/`} className="flex flex-col items-center my-[28px]">
                     <img 
                         src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" 
                         alt="Profile Picture" 
@@ -23,7 +23,7 @@ function Modal({ isOpen }) {
                     />
                     <h3 className="mt-[16px] text-[18px] font-bold text-white">John Lloyd Butay</h3>
                     <div className="text-[13px] text-[#888888]">Fullstack Developer</div>
-                </div>
+                </a>
                 
                 <div className="border-y-[1px] border-gray-400">
                     <a href={`/selected-projects`} className="flex justify-between items-center mx-[20px] h-[72px] border-b-[1px] border-gray-400">
