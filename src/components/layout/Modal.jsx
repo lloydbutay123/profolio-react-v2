@@ -26,20 +26,20 @@ function Modal({ isOpen }) {
                 </div>
                 
                 <div className="border-y-[1px] border-gray-400">
-                    <div className="flex justify-between items-center mx-[20px] h-[72px] border-b-[1px] border-gray-400">
+                    <a href={`/selected-projects`} className="flex justify-between items-center mx-[20px] h-[72px] border-b-[1px] border-gray-400">
                         <div className="flex space-x-[4px]">
                             <h3 className="text-white">Selected Works</h3>
                             <div className="text-[13px] px-[2px] text-[#888888]">001</div>
                         </div>
                         <FaArrowRight className="text-white" />
-                    </div>
-                    <div className="flex justify-between items-center mx-[20px] h-[72px]">
+                    </a>
+                    <a href={`/about-me`} className="flex justify-between items-center mx-[20px] h-[72px]">
                         <div className="flex space-x-[4px]">
                             <h3 className="text-white">Info</h3>
                             <div className="text-[13px] px-[2px] text-[#888888]">002</div>
                         </div>
                         <FaArrowRight className="text-white" />
-                    </div>
+                    </a>
                 </div>
 
                 <div className="flex items-center justify-center h-[67.53px]">
