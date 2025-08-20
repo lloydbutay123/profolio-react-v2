@@ -7,6 +7,7 @@ import { Autoplay } from "swiper/modules";
 import { FaPlay, FaRegCopyright } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { GoArrowUpRight } from "react-icons/go";
+import asianlink from '../../assets/images/asianlink.png';
 
 function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,7 +18,7 @@ function Hero() {
       <div className="flex flex-col justify-between">
         {/* Top Text Section */}
         <div className="mt-7 px-4">
-          <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Designer</h1>
+          <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Developer</h1>
           <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Skill Collector</h1>
           <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Harmony Hunter</h1>
 
@@ -45,14 +46,14 @@ function Hero() {
           >
             <SwiperSlide className="w-full flex justify-center">
               <img
-                src="https://png.pngtree.com/png-clipart/20230824/original/pngtree-automated-testing-abstract-concept-vector-illustration-picture-image_8420807.png"
+                src={asianlink}
                 alt="Slide 1"
                 className="w-full max-w-md h-auto object-contain"
               />
             </SwiperSlide>
             <SwiperSlide className="w-full flex justify-center">
               <img
-                src="https://png.pngtree.com/png-clipart/20230824/original/pngtree-automated-testing-abstract-concept-vector-illustration-picture-image_8420807.png"
+                src={asianlink}
                 alt="Slide 2"
                 className="w-full max-w-md h-auto object-contain"
               />
@@ -84,7 +85,7 @@ function Hero() {
             </div>
           </div>
           <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
-            <FaRegCopyright className="w-[12px] h-[12px] text-[#888888]" />
+            <FaRegCopyright className="w-[12px] h-[12px] text-[#888888" />
             <p className="text-[12px] text-[#888888]">2025</p>
           </div>
         </div>

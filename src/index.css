@@ -19,7 +19,7 @@ body {
 }
 .bg-image {
     background-image: url(
-        'https://img.freepik.com/free-vector/abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg'
+        './assets/images/grid.png'
     );
     background-size: cover;
     background-position: center;
