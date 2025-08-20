@@ -17,15 +17,15 @@ function Hero() {
       <div className="flex flex-col justify-between">
         {/* Top Text Section */}
         <div className="mt-7 px-4">
-          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Designer</h1>
-          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Skill Collector</h1>
-          <h1 className="font-bold text-[42px] leading-[1em] tracking-[.1vh]">Harmony Hunter</h1>
+          <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Designer</h1>
+          <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Skill Collector</h1>
+          <h1 className="font-bold text-[42px] text-white leading-[1em] tracking-[.1vh]">Harmony Hunter</h1>
 
           <div className="flex items-center mt-5 space-x-2">
-            <button className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-gray-300 text-black">
+            <button className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#888888] text-black">
               <FaPlay className="w-[6px] h-[6px] text-black" fill="currentColor" />
             </button>
-            <p className="uppercase text-[12px]">Play Project Reels</p>
+            <p className="uppercase text-[12px] text-[#888888]">Play Project Reels</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ function Hero() {
         </div>
 
         <div className="fixed z-10 w-full flex justify-center bottom-[4%]">
-          <button className=" z-10 h-[72px] w-[72px] bg-gray-400 rounded-full p-[8px]" onClick={() => setIsModalOpen(prev => !prev) }>
+          <button className=" z-10 h-[72px] w-[72px] bg-[#888888] rounded-full p-[8px]" onClick={() => setIsModalOpen(prev => !prev) }>
           <div className="flex justify-center items-center rounded-full bg-white w-full h-full">
               <HiMenuAlt4 className="w-[24px] h-[24px]" />
             </div>
@@ -75,17 +75,17 @@ function Hero() {
         <div className="flex justify-between px-4 w-full h-[48.92px]">
           <div className="flex space-x-2">
             <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
-              <p className="text-[12px]">AR</p>
-              <GoArrowUpRight className="w-[12px] h-[12px]" />
+              <p className="text-[12px] text-[#888888]">AR</p>
+              <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
             </div>
             <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
-              <p className="text-[12px]">LI</p>
-              <GoArrowUpRight className="w-[12px] h-[12px]" />
+              <p className="text-[12px] text-[#888888]">LI</p>
+              <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
             </div>
           </div>
           <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
-            <FaRegCopyright className="w-[12px] h-[12px]" />
-            <p className="text-[12px]">2025</p>
+            <FaRegCopyright className="w-[12px] h-[12px] text-[#888888]" />
+            <p className="text-[12px] text-[#888888]">2025</p>
           </div>
         </div>
     </div>
