@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Generasan';
+    src: url('./assets/fonts/GeneralSans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Generasan', sans-serif;
+}
+
+.swiper {
+    width: 100%;
+}
+.bg-image {
+    background-image: url(
+        'https://img.freepik.com/free-vector/abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg'
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
