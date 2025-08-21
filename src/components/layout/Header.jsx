@@ -8,12 +8,11 @@ function Header() {
                 <p className="text-[#888888] text-[12px] uppercase">John Lloyd Butay</p>
             </div>
 
-            <a href="" className="flex items-center justify-center bg-[#2b2b2b] py-[14px] px-[18px] rounded-full text-white uppercase text-[12px]">
+            <a href="http://calendly.com/johnlloydbutay123/30min" target="_blank" className="flex items-center justify-center bg-[#2b2b2b] py-[14px] px-[18px] rounded-full text-white uppercase text-[12px]">
                 Work with me
                 <GoArrowUpRight className="w-[12px] h-[12px] ml-[5px]" />
             </a>
         </div>
-
     );
 }
 

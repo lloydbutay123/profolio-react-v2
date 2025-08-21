@@ -7,17 +7,17 @@ function AboutSection() {
                 <div className="text-[14px] mb-[21px]">/ Ekaabo</div>
                 <div className="flex flex-wrap leading-none">
                     <span className="text-[49px] mr-[10px] text-[#888888] font-bold">
-                        Hello, I am JL.
+                        Hello, I am Lloyd.
                     </span>
                     <p className="text-[49px] font-bold mr-[10px]">A</p>
                     <span className="text-[49px] mr-[10px] border-b-2 border-[#888888] border-dashed font-bold">
-                        product
+                        web
                     </span>
                     <p className="text-[49px] font-bold mr-[10px]">&</p>
                     <span className="text-[49px] mr-[10px] border-b-2 border-[#888888] border-dashed font-bold">
-                           interaction
+                           mobile
                     </span>
-                    <p className="text-[49px] font-bold mr-[10px]">designer with an</p>
+                    <p className="text-[49px] font-bold mr-[10px]">developer with an</p>
                     <span className="text-[49px] mr-[10px] border-b-2 border-[#888888] border-dashed font-bold">
                         architecture
                     </span>

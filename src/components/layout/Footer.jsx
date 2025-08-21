@@ -9,8 +9,9 @@ function Footer() {
                     <div className="flex flex-col text-[#888888] space-y-[.75em] uppercase text-[14px]">
                         /Reach me
                         <a 
-                            href=""
+                            href="mailto:johnlloydbutay123@gmail.com"
                             className="text-white lowercase text-[18.2px]"
+                            target="_blank"
                          >
                             johnlloydbutay123@gmail.com
                         </a>
@@ -18,14 +19,16 @@ function Footer() {
                     <div className="flex flex-col text-[#888888] space-y-[.75em] uppercase text-[14px]">
                         /Stalk me :)
                         <a 
-                             href=""
+                            href=""
                             className="text-white lowercase text-[18.2px]"
+                            target="_blank"
                         >
                             linkedIn
                         </a>
                         <a 
-                            href=""
+                            href="https://drive.google.com/drive/folders/16AhL2iwMCPaE-uFV_E3lstWNgAVkT6O5?usp=drive_link"
                             className="text-white lowercase text-[18.2px]"
+                            target="_blank"
                         >
                             My resume
                         </a>
@@ -41,18 +44,18 @@ function Footer() {
             </div>
             <div className="py-[41px] pr-[14px] pl-[23.800px] space-y-[1em]">
                 <div className="flex justify-center">
-                    <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+                    <a href="" target="_blank" className="flex items-center space-x-2 px-[11.2px] py-[7px]">
                         <p className="text-[12px] text-[#888888]">TW</p>
                         <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
-                    </div>
-                    <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+                    </a>
+                    <a href="" target="_blank" className="flex items-center space-x-2 px-[11.2px] py-[7px]">
                         <p className="text-[12px] text-[#888888]">BE</p>
                         <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
-                    </div>
-                    <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+                    </a>
+                    <a href="" target="_blank" className="flex items-center space-x-2 px-[11.2px] py-[7px]">
                         <p className="text-[12px] text-[#888888]">LI</p>
                         <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
-                    </div>
+                    </a>
                 </div>
                 <div className="flex justify-center items-center text-[#888888]">
                     Design and Buld with

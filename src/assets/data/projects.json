@@ -1,0 +1,45 @@
+[
+    {
+        "title" : "asianlink.ai",
+        "company" : "asianlink.ai",
+        "link" : "",
+        "image" : "https://i.imgur.com/TM08CcG.jpeg",
+        "teckStack" : [
+            "Flutter",
+            "Firebase",
+            "Google Maps API"
+        ],
+        "type" : [
+            "Web"
+        ]
+    },
+    {
+        "title" : "NomNom - Food App",
+        "company" : "NomNom",
+        "link" : "",
+        "image" : "https://i.imgur.com/zIYdVtK.jpeg",
+        "teckStack" : [
+            "Flutter",
+            "Firebase",
+            "Google Maps API"
+        ],
+        "type" : [
+            "Mobile"
+        ]
+    },
+    {
+        "title" : "Community",
+        "company" : "asianlink.ai",
+        "link" : "",
+        "image" : "https://i.imgur.com/dq8P2hu.jpeg",
+        "teckStack" : [
+            "Flutter",
+            "Firebase",
+            "Google Maps API"
+        ],
+        "type" : [
+            "Mobile",
+            "Web"
+        ]
+    }
+]

@@ -1,5 +1,5 @@
 import { FaArrowRight, FaSpotify } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
+import { GoArrowUpRight } from "react-icons/go"; 
 
 function Modal({ isOpen }) {
     if(!isOpen) return null;
@@ -9,10 +9,12 @@ function Modal({ isOpen }) {
             <div className="bg-[#2b2b2b] h-auto mx-[18.969px] rounded-[16px] w-full">
                 <div className="flex justify-between px-[24px] pt-[28px]">
                     <div className="space-x-[1.5em]">
-                        <a href="" className="text-xs text-[#888888]">BE</a>
-                        <a href="" className="text-xs text-[#888888]">LI</a>
+                        <a href= "http://behance.com" target="_blank" className="text-xs text-[#888888]">BE</a>
+                        <a href="https://www.linkedin.com/in/john-lloyd-butay-a7675917b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="text-xs text-[#888888]">LI</a>
                     </div>
-                    <FaSpotify className="w-[20px] h-[20px] text-white" />
+                    <a href="https://open.spotify.com/user/317wkjulcwkryfe4zoc5qldjnrem?si=6df19cdb00904fe0" target="_blank">
+                        <FaSpotify className="w-[20px] h-[20px] text-white" />
+                    </a>
                 </div>
 
                 <a href={`/`} className="flex flex-col items-center my-[28px]">
@@ -43,7 +45,7 @@ function Modal({ isOpen }) {
                 </div>
 
                 <div className="flex items-center justify-center h-[67.53px]">
-                    <a href="http://calendly.com/johnlloydbutay123/30min" className="flex items-center justify-center space-x-[.5em] bg-black text-white px-[18.2px] py-[8.4px] rounded-full w-[160px]">
+                    <a href="http://calendly.com/johnlloydbutay123/30min" target="_blank" className="flex items-center justify-center space-x-[.5em] bg-black text-white px-[18.2px] py-[8.4px] rounded-full w-[160px]">
                         <p className="text-[12px] uppercase">Work with me</p>
                         <GoArrowUpRight className="w-[12px] h-[12px]" />
                     </a>

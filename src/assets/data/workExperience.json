@@ -1,0 +1,18 @@
+[
+    {
+        "company" : "asianlink.ai",
+        "image" : "https://play-lh.googleusercontent.com/rbSSOSbv0QbRA8KGz-4E04uUJHFeaLhXc5ZOsYSfApzEtEfb4NbubvFHI2PM73hizJg",
+        "position" : "Full stack Developer",
+        "years" : "May 2024 - July 2025",
+        "responsibilities" : [
+        ]
+    },
+    {
+        "company" : "CCK City Network Inc.",
+        "image" : "https://www.cck-citynetwork.com/img/logo.png",
+        "position" : "Software Engineer",
+        "years" : "Jan 2023 - Mar 2024",
+        "responsibilities" : [       
+        ]
+    }
+]

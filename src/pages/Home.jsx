@@ -67,14 +67,14 @@ function Home() {
       {/* Bottom Section */}
         <div className="flex justify-between px-4 w-full h-[48.92px]">
           <div className="flex space-x-2">
-            <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
-              <p className="text-[12px] text-[#888888]">AR</p>
+            <a href="https://www.instagram.com/lloydpuji/" target="_blank" className="flex items-center w-full space-x-2 px-[11.2px] py-[7px]">
+              <p className="text-[12px] text-[#888888]">IG</p>
               <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
-            </div>
-            <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
+            </a>
+            <a href="https://www.linkedin.com/in/john-lloyd-butay-a7675917b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="flex items-center w-full space-x-2 px-[11.2px] py-[7px]">
               <p className="text-[12px] text-[#888888]">LI</p>
               <GoArrowUpRight className="w-[12px] h-[12px] text-[#888888]" />
-            </div>
+            </a>
           </div>
           <div className="flex items-center space-x-2 px-[11.2px] py-[7px]">
             <FaRegCopyright className="w-[12px] h-[12px] text-[#888888" />
